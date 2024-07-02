@@ -1,6 +1,5 @@
-// script.js
-const currentUTCTimeElement = document.querySelector('[data-testid="currentUTCTime"]');
-const currentDayOfTheWeekElement = document.querySelector('[data-testid="currentDayOfTheWeek"]');
+const currentUTCTimeElement = document.querySelector('[data-testid="currentTimeUTC"]');
+const currentDayOfTheWeekElement = document.querySelector('[data-testid="currentDay"]');
 
 function updateUTCTimeAndDay() {
     const currentTime = new Date();
